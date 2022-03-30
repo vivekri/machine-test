@@ -26,17 +26,7 @@ function MyStack() {
         component={SplashController}
         options={{headerShown: false}}
       />
-      <Stack.Screen
-        name="Login"
-        component={LoginController}
-        options={{headerShown: false}}
-      />
-      <Stack.Screen
-        name="Clinic"
-        component={ClinicController}
-        options={{headerShown: false}}
-      />
-      <Stack.Screen name="DashBoard" component={HomeTabs}options={{headerShown: false}} />
+      
       
     </Stack.Navigator>
   );
@@ -79,7 +69,7 @@ export default function App(state = initialState) {
       <NavigationContainer>
       <View style={{ flex: 1 }}>
         <MyStack />
-        <FlashMessage position="top" />
+        
     </View>
       </NavigationContainer>
     </Provider>

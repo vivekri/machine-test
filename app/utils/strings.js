@@ -9,8 +9,5 @@ export function setLocalLanguage() {
 }
 
 export const strings = {
-  getStarted: "Let's get started",
-  treatingPain:"Treating Pain",
-  improvingLives:"Improving Lives",
-
+  getStarted: "Let's get started"
 };

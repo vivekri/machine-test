@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet,ActivityIndicator,View,Platform } from 'react-native';
+import { StyleSheet,ActivityIndicator,View } from 'react-native';
 
 
 
@@ -20,7 +20,7 @@ export default class AppLoader extends React.Component {
         return (
              <View style={styles.container}>
 
-                {Platform.OS === 'ios'?<ActivityIndicator/>:<ActivityIndicator color={'gray'}/>}
+                <ActivityIndicator/>
 
             </View>
 
